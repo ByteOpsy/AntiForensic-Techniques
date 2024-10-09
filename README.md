@@ -15,11 +15,23 @@ To investigate and uncover evidence of illegal activities related to a suspected
 
 ---
 
-## **Objective:**
+## 🕵🏽‍♀️ Research Focus: Anti-Forensic Techniques
+
 To identify and analyze anti-forensic techniques employed in:
-a. Data encryption and steganography
-b. File hiding and obfuscation
-c. Browser privacy modes and cookie management
-d. VPN and proxy usage
-e. Disk wiping and secure deletion
+
+1. **Data encryption and steganography**
+   - Investigating the use of cryptography and steganography to conceal data from detection.
+   
+2. **File hiding and obfuscation**
+   - Methods such as renaming files, changing extensions, and using hidden attributes to obscure file existence.
+
+3. **Browser privacy modes and cookie management**
+   - Examining how incognito/private browsing and cookie manipulation protect user activity.
+
+4. **VPN and proxy usage**
+   - Analyzing how VPNs and proxies are used to mask IP addresses and anonymize internet traffic.
+
+5. **Disk wiping and secure deletion**
+   - Exploring techniques like overwriting and shredding files to permanently erase data from storage media.
+
 
