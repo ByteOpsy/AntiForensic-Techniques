@@ -2,18 +2,21 @@ Steganography is the practice of concealing information within other non-secret 
 
 Upon analysis, it was discovered that the attacker employed Steghide, a commonly used steganography tool, to conceal files within other files. To counter this, StegSeek, a specialized tool designed to crack the password of files encrypted with Steghide using a wordlist was utilized. On password recovery, the concealed file was extracted.
 --
-##Tools:
+## Tools:
 Steghide
 Stegseek
 
 Navigate to the directory with the file:
-```bash
+```
 cd Download
+``` 
 
 To extract the password from the image:
-```bash
+```
 stegseek image.jpg /usr/share/wordlists/rockyou.txt 
+``` 
 
 ```bash 
 steghide extract -sf {file.jpg} -p {password}
 steghide extract -sf pexels.jpg -p qwertyuiop
+```
