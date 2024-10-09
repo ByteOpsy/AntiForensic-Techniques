@@ -1,0 +1,2 @@
+Upon analysis, it was discovered that the attacker employed Steghide, a commonly used steganography tool, to conceal files within other files. To counter this, StegSeek, a specialized tool designed to crack the password of files encrypted with Steghide using a wordlist was utilized. On password recovery, the concealed file was extracted.
+
