@@ -9,11 +9,13 @@ Upon analysis, it was discovered that the attacker employed Steghide, a commonly
 - StegSeek
 
 ### Navigate to the directory with the file:
+
 ```bash
 cd Download
 
 
 To extract the password from the image:
+
 ```bash
 stegseek image.jpg /usr/share/wordlists/rockyou.txt 
 
