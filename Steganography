@@ -8,7 +8,8 @@ Upon analysis, it was discovered that the attacker employed Steghide, a commonly
 - Steghide
 - StegSeek
 
-### Navigate to the directory with the file:
+Steps:
+1. Navigate to the directory with the file:
 
 ```bash
 
@@ -16,13 +17,14 @@ cd Download
 ```
 
 
-To extract the password from the image:
+2. Crack the password of the image file:
 
 ```bash
 
 stegseek image.jpg /usr/share/wordlists/rockyou.txt 
 ```
 
+3. Using the password extract the image:
 ```bash
 
 steghide extract -sf {file.jpg} -p {password}
